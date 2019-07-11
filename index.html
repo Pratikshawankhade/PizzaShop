@@ -16,30 +16,34 @@
       <form id="order_pizza">
         <div class="form-group">
           <p>Create your own pizza by choosing one or more individual toppings of your ch:</p>
-          <input type="checkbox" name="pizza-topping" value="cheese"> Chees<br>
-          <input type="checkbox" name="pizza-topping" value="pepproni">Pepproni<br>
-          <input type="checkbox" name="pizza-topping" value="artichoke">Artichoke<br>
-          <input type="checkbox" name="pizza-topping" value="anchovy">Anchovy<br>
-          <input type="checkbox" name="pizza-topping" value="mushroom">Mashroom<br>
-          <input type="checkbox" name="pizza-topping" value="vegitables">Vegitables<br>
-          <input type="checkbox" name="pizza-topping" value="pineapple">Pineapple<br>
-          <input type="checkbox" name="pizza-topping" value="chicken">Chicken<br>
-          <input type="checkbox" name="pizza-topping" value="sausage">Sausage<br>
-          <input type="checkbox" name="pizza-topping" value="black-olives">Black Olives<br>
-          <input type="checkbox" name="pizza-topping" value="bacon">Bacon<br>
-          <input type="checkbox" name="pizza-topping" value="onions">Onions<br>
-          <input type="checkbox" name="pizza-topping" value="green-paper">Green Paper<br>
+          <input type="checkbox" name="pizza-topping" value="Cheese = $1.00">Cheese = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Pepproni">Pepproni = $1.50<br>
+          <input type="checkbox" name="pizza-topping" value="Artichoke">Artichoke = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Olives">Olives = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Mashroom">Mashroom = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Vegitables">Vegitables = $.50<br>
+          <input type="checkbox" name="pizza-topping" value="Pineapple">Pineapple = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Chicken">Chicken =$1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Sausage">Sausage = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Back-olives">Black-olives = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Bacon">Bacon = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Onions">Onions = $1.00<br>
+          <input type="checkbox" name="pizza-topping" value="Green-paper">Green-paper = $1.00<br>
           <input type="checkbox" name="pizza-topping" value="other">Other<br>
         </div>
         <div class="form-group">
           <p>Please select size of pizza:</p>
-          <input type="checkbox" name="pizza-size" value="small"> Small<br>
-          <input type="checkbox" name="pizza-size" value="medium">Medium<br>
-          <input type="checkbox" name="pizza-size" value="large">Large<br>
-          <input type="checkbox" name="pizza-size" value="extra-large">Extra Large<br>
+          <input type="checkbox" name="pizza-size" value="Small">Small = $7.00<br>
+          <input type="checkbox" name="pizza-size" value="Medium">Medium = $10.00<br>
+          <input type="checkbox" name="pizza-size" value="Large">Large = $15.00<br>
+          <input type="checkbox" name="pizza-size" value="ExtraLarge">ExtraLarge = $20.00<br>
         </div><br>
        <button type="submit">Submit the Order</button>
-      </form>
+     </form>
+
+
+
+       <div id ="orders">
       <span id="topping-responses">
         <p><b>Your choosen toppings are:</b></p>
       </span>
@@ -47,6 +51,11 @@
       <span id="size-responses">
         <p><b>You have selected size:</b></p>
       </span>
+      <span id ="show-cost">
+        <p><b> Your order cost is: </b></p>
+      </span>
+      </div>
+
     </div>
   </body>
 </html>
